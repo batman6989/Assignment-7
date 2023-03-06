@@ -7,17 +7,7 @@ import static java.lang.System.*;
 public class SimpleCal{
     double result;
     public double doMultiplication(double i, double i1) {
-        out.println("******* Entering in Multiplication Process ********");
-        out.println("Enter Your Choice :::::::  \n");
-        Scanner sr = new Scanner(in);
-        out.println("Enter Number 1 For Multiplication: ");
-
-         i = sr.nextDouble();
-        out.println("Enter Number 2 For Multiplication: ");
-        i1 = sr.nextDouble();
-
         result = i * i1;
-
         out.println("Multiplication of " + i + " and " + i1 + " is ::::::: " + result);
         return result;
 
@@ -25,7 +15,12 @@ public class SimpleCal{
     }
 
    public static void main(String[] args) {
-       new SimpleCal().doMultiplication(5,3);
+       out.println("******* Entering in Multiplication Process ********");
+       new SimpleCal().doMultiplication(5,2);
+       new SimpleCal().doMultiplication(2,3);
+       new SimpleCal().doMultiplication(8,6);
+       new SimpleCal().doMultiplication(9,9);
+
 
 
 

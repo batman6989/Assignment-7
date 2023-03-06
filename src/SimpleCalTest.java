@@ -5,7 +5,7 @@ class SimpleCalTest {
 
     @Test
     void twoTimes_three() {
-        var calculator = new SimpleCal();
+        SimpleCal calculator = new SimpleCal();
         try {
             assertEquals(6, calculator.doMultiplication(2, 3));
 
@@ -16,7 +16,7 @@ class SimpleCalTest {
     }
    @Test
     void fifteenTimes_three() {
-        var calculator = new SimpleCal();
+       SimpleCal calculator = new SimpleCal();
         try {
             assertEquals(45, calculator.doMultiplication(15, 3));
 
@@ -27,7 +27,7 @@ class SimpleCalTest {
     }
     @Test
     void twoTimes_four() {
-        var calculator = new SimpleCal();
+        SimpleCal calculator = new SimpleCal();
         try {
             assertEquals(8, calculator.doMultiplication(2, 4));
 
@@ -38,7 +38,7 @@ class SimpleCalTest {
     }
     @Test
     void sixTimes_four() {
-        var calculator = new SimpleCal();
+        SimpleCal calculator = new SimpleCal();
         try {
             assertEquals(24, calculator.doMultiplication(6, 4));
 
